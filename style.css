@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+.box{
+    position: relative;
+    width: 10px;
+    font-size: 10px;
+    height: 10px;
+    background-color: aqua;
+    padding: 3px;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    
+}
